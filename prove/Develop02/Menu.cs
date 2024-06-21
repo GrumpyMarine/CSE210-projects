@@ -1,14 +1,14 @@
-using System.Diagnostics.Contracts;
-using System;
-using System.Collections.Generic;
-using System.IO;
+// using System.Diagnostics.Contracts;
+// using System;
+// using System.Collections.Generic;
+// using System.IO;
 
 public class Menu
 {
     static Journal journal = new Journal();
     static PromptGenerator promptGenerator = new PromptGenerator();
 
-    public static void Journal()
+    public static void Main()
     {
         while (true)
         {
